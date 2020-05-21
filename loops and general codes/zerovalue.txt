@@ -1,0 +1,12 @@
+package main
+
+import (
+	"fmt"
+)
+
+var z int //DECLARE A VAR IS OF TYPE int
+
+func main(){
+	//z = 21 //ASSIGN A VALUE TO THE VAR
+	fmt.Println(z) 
+}
