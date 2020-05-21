@@ -1,0 +1,30 @@
+package main
+
+import (
+	"fmt"
+)
+
+var a int //DECLARE A VAR IS OF TYPE int
+var b string = "James Bond"
+var c bool
+var d bool = true
+
+func main(){
+	//z = 21 //ASSIGN A VALUE TO THE VAR
+	e := 42
+	f := "Shaken not Stirred"
+	g := `Miss Moneypenny says, "Hellooooo, James."`
+	
+	fmt.Println("Hello, playground") 
+	fmt.Println(a) 
+	fmt.Println(b) 
+	fmt.Println(c) 
+	fmt.Println(d) 
+	fmt.Println(e) 
+	fmt.Println(b, "says,", f) 
+	fmt.Println(g) 
+	fmt.Printf("%v\n", a)
+	fmt.Printf("%T", a)
+	s := fmt.Sprint(a,b)
+	fmt.Println(s)
+}
